@@ -1,0 +1,116 @@
+*{
+    background-color:#161d32 ;
+}
+.sidebar{
+  
+    
+    width: 180px;
+    height: 500px;
+   position: fixed; 
+   z-index: 1; 
+  top: 20px;
+  left: 10px;
+  color: white;
+   background-color: rgba(40,48,70,255); 
+  /* overflow-x: hidden; */
+  padding: 8px 0;
+}
+
+.logocomb{
+background-color: #161d32;
+width:160px;
+    height:60px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width:150px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+border-radius: 50%;
+}
+
+.sidebar button{
+   
+    justify-content: center;
+align-items: center;
+padding-top: 4px;
+    width:160px;
+    height:50px;
+    /* border: 1px solid rgba(40,48,70,255) ; */
+    border: none;
+    margin-left: 8px;
+    color: white;
+    
+}
+.sidebar button :hover{
+    display: block;
+    cursor: pointer;
+    background-color:#655cce;
+    text-decoration: none;
+    width: 150px;
+    height: 55px;
+   padding-top: 19px;
+   /* border-bottom: 1px solid #655cce ; */
+}
+a{
+    text-decoration: none;
+}
+.upperbar{
+    margin-left: 200px;
+    padding: 0px 10px;
+    background-color: rgba(40,48,70,255);
+    color: white;
+    height:200px;
+    margin-top: 15px;
+}
+.topline{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottomline{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.insta{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p.instatext {
+    line-height: 0.2;
+}
+.insta img{
+    border-radius: 50%;
+}
+.mainbar{
+    margin-left: 200px;
+    padding: 0px 10px;
+
+    background-color: rgba(40,48,70,255);
+    color: white;
+    height:400px;
+    margin-top: 15px;
+}
+.component{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.start{
+    color:white
+}
